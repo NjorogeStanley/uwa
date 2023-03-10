@@ -23,8 +23,9 @@ body{
 .header-text{
     top: 50px;
     justify-content: center;
-    
+    margin-top: 5%;
 }
+
 .logo{
     position: fixed;
     top: 10px;
@@ -400,7 +401,7 @@ nav .fas{
     }
     .header-text{
         margin-top: 100%;
-        font-size: 16px;
+        font-size: 15px;
     }
     .header-text h1{
         font-size: 30px;
@@ -455,98 +456,6 @@ nav .fas{
 }
 
 
-/*
-/* Small devices (phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-    /* Style for header */
-    #header {
-        padding: 20px 40px;
-    }
-    .header-text {
-        margin-top: 80px;
-    }
-    .logo {
-        width: 100px;
-        height: auto;
-    }
-    #sidemenu {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    #sidemenu li {
-        margin: 0 20px;
-    }
-    #sidemenu i {
-        display: none;
-    }
-    /* Style for about section */
-    .about-col-2 {
-        margin-left: 50px;
-    }
-    .tab-links {
-        margin-right: 30px;
-    }
-    /* Style for services section */
-    .services-list {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-    .services-list div {
-        width: 30%;
-    }
-}
-/* Medium devices (tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-    /* Style for header */
-    .header-text {
-        margin-top: 100px;
-    }
-    /* Style for about section */
-    .about-col-2 {
-        margin-left: 80px;
-    }
-    .tab-links {
-        margin-right: 50px;
-    }
-    /* Style for services section */
-    .services-list div {
-        width: 45%;
-    }
-}
-/* Large devices (desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-    /* Style for header */
-    #header {
-        padding: 30px 60px;
-    }
-    .header-text {
-        margin-top: 150px;
-    }
-    .logo {
-        width: 150px;
-    }
-    #sidemenu {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-    #sidemenu li {
-        margin: 0 30px;
-    }
-    #sidemenu i {
-        display: none;
-    }
-    /* Style for about section */
-    .about-col-2 {
-        margin-left: 100px;
-    }
-    .tab-links {
-        margin-right: 70px;
-    }
-    /* Style for services section */
-    .services-list div {
-        width: 30%;
-    }
-}
+
+
+
